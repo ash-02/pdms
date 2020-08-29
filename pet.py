@@ -12,7 +12,7 @@ window.geometry('1080x540')
 window.title('Start Window')
 
 C = Canvas(window, bg="blue", height=250, width=300)
-filename = PhotoImage(file = "D:\\desktop\\proj\\mainbg_1080x540.png")
+filename = PhotoImage(file = "images\\mainbg_1080x540.png")
 background_label = Label(window, image=filename)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -39,7 +39,7 @@ def start():
             menu.geometry('540x540')
             menu.title('Menu Window')
             C = Canvas(menu, bg="blue", height=250, width=300)
-            filename = PhotoImage(file="D:\\desktop\\proj\\registerbg_540x540.png")
+            filename = PhotoImage(file="images\\registerbg_540x540.png")
             background_label = Label(menu, image=filename)
             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -79,7 +79,7 @@ def start():
                 root.geometry('540x540')
                 root.title('OWNER DETAILS')
                 C = Canvas(root, bg="blue", height=250, width=300)
-                filename = PhotoImage(file="D:\\desktop\\proj\\owner .png")
+                filename = PhotoImage(file="images\\owner .png")
                 background_label = Label(root, image=filename)
                 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -178,7 +178,7 @@ def start():
                     root.geometry('540x540')
                     root.title('PET DETAILS')
                     C = Canvas(root, bg="blue", height=250, width=300)
-                    filename = PhotoImage(file="D:\\desktop\\proj\\petdetailsbg_540x540.png")
+                    filename = PhotoImage(file="images\\petdetailsbg_540x540.png")
                     background_label = Label(root, image=filename)
                     background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -257,7 +257,7 @@ def start():
                             l = Label(root, text='Register Grooming Details :', font='Times 20 bold')
                             l.grid(row=0, column=0)
                             C = Canvas(root, bg="blue", height=250, width=300)
-                            filename = PhotoImage(file="D:\\desktop\\proj\\grooming.png")
+                            filename = PhotoImage(file="images\\grooming.png")
                             background_label = Label(root, image=filename)
                             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -412,7 +412,7 @@ def start():
                             root.geometry('540x540')
                             root.title('VET CARE:')
                             C = Canvas(root, bg="blue", height=250, width=300)
-                            filename = PhotoImage(file="D:\\desktop\\proj\\vetcare.png")
+                            filename = PhotoImage(file="images\\vetcare.png")
                             background_label = Label(root, image=filename)
                             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -566,7 +566,7 @@ def start():
                             root.geometry('540x540')
                             root.title('PET HOTEL')
                             C = Canvas(root, bg="blue", height=250, width=300)
-                            filename = PhotoImage(file="D:\\desktop\\proj\\pethotel_540x540.png")
+                            filename = PhotoImage(file="images\\pethotel_540x540.png")
                             background_label = Label(root, image=filename)
                             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -703,7 +703,7 @@ def start():
                             root.geometry('540x540')
                             root.title('DAY CAMP')
                             C = Canvas(root, bg="blue", height=250, width=300)
-                            filename = PhotoImage(file="D:\\desktop\\proj\\daycamp.png")
+                            filename = PhotoImage(file="images\\daycamp.png")
                             background_label = Label(root, image=filename)
                             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -834,7 +834,7 @@ def start():
                             root.geometry('540x540')
                             root.title('TRAINING CAMP')
                             C = Canvas(root, bg="blue", height=250, width=300)
-                            filename = PhotoImage(file="D:\\desktop\\proj\\training.png")
+                            filename = PhotoImage(file="images\\training.png")
                             background_label = Label(root, image=filename)
                             background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
